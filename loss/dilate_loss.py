@@ -1,6 +1,6 @@
 import torch
-from . import soft_dtw
-from . import path_soft_dtw 
+import soft_dtw
+import path_soft_dtw 
 
 def dilate_loss(outputs, targets, alpha, gamma, device):
 	# outputs, targets: shape (batch_size, N_output, 1)
